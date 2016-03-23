@@ -14,3 +14,4 @@ ptyprocess==0.5.1
 PyYAML==3.11
 simplegeneric==0.8.1
 traitlets==4.2.1
+whitenoise==2.0.6
