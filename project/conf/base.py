@@ -8,6 +8,8 @@ ROOT_DIR = os.path.dirname(BASE_DIR)
 sys.path.append(
     os.path.join(BASE_DIR, 'apps')
 )
+sys.path.append(BASE_DIR)
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -45,6 +47,8 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+from pprint import pprint
+pprint(sys.path)
 
 ROOT_URLCONF = 'urls'
 
